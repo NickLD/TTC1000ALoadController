@@ -1,0 +1,418 @@
+/* TTC 1000A Load Controller - Dark Theme Overrides */
+
+/* Enhanced dark theme colors for better consistency */
+:root {
+    --dark-bg-primary: #121212;
+    --dark-bg-secondary: #1e1e1e;
+    --dark-bg-tertiary: #2d2d2d;
+    --dark-text-primary: #ffffff;
+    --dark-text-secondary: #c9d1d9;
+    --dark-text-muted: #6b7280;
+    --dark-border: #30363d;
+    --dark-accent: #58a6ff;
+}
+
+/* Ensure consistent dark background */
+body, .rz-body {
+    background-color: var(--dark-bg-primary) !important;
+    color: var(--dark-text-primary) !important;
+}
+
+/* Card backgrounds */
+.rz-card {
+    background-color: var(--dark-bg-secondary) !important;
+    border: 1px solid var(--dark-border) !important;
+}
+
+/* Input fields */
+.rz-textbox, .rz-dropdown, .rz-textarea {
+    background-color: var(--dark-bg-tertiary) !important;
+    border-color: var(--dark-border) !important;
+    color: var(--dark-text-primary) !important;
+}
+
+.rz-textbox::placeholder, .rz-textarea::placeholder {
+    color: var(--dark-text-muted) !important;
+}
+
+/* Buttons */
+.rz-button.rz-button-light {
+    background-color: var(--dark-bg-tertiary) !important;
+    border-color: var(--dark-border) !important;
+    color: var(--dark-text-secondary) !important;
+}
+
+.rz-button.rz-button-light:hover {
+    background-color: var(--dark-bg-primary) !important;
+    border-color: var(--dark-accent) !important;
+}
+
+/* Navigation */
+.rz-navigation-item {
+    color: var(--dark-text-secondary) !important;
+}
+
+.rz-navigation-item:hover, .rz-navigation-item.rz-state-active {
+    background-color: var(--dark-bg-tertiary) !important;
+    color: var(--dark-accent) !important;
+}
+
+/* Alerts */
+.rz-alert {
+    border-color: var(--dark-border) !important;
+}
+
+.rz-alert.rz-alert-info {
+    background-color: rgba(88, 166, 255, 0.1) !important;
+    border-color: var(--dark-accent) !important;
+    color: var(--dark-text-primary) !important;
+}
+
+.rz-alert.rz-alert-success {
+    background-color: rgba(125, 211, 252, 0.1) !important;
+    border-color: #06b6d4 !important;
+    color: var(--dark-text-primary) !important;
+}
+
+.rz-alert.rz-alert-warning {
+    background-color: rgba(251, 191, 36, 0.1) !important;
+    border-color: #f59e0b !important;
+    color: var(--dark-text-primary) !important;
+}
+
+.rz-alert.rz-alert-error {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    border-color: #ef4444 !important;
+    color: var(--dark-text-primary) !important;
+}
+
+/* Chart dark theme */
+.rz-chart {
+    background-color: var(--dark-bg-secondary) !important;
+}
+
+.rz-chart-legend-item {
+    color: var(--dark-text-secondary) !important;
+}
+
+/* Dropdowns */
+.rz-dropdown-panel {
+    background-color: var(--dark-bg-secondary) !important;
+    border-color: var(--dark-border) !important;
+}
+
+.rz-dropdown-item {
+    color: var(--dark-text-secondary) !important;
+}
+
+.rz-dropdown-item:hover {
+    background-color: var(--dark-bg-tertiary) !important;
+    color: var(--dark-accent) !important;
+}
+
+/* Badges */
+.rz-badge.rz-badge-light {
+    background-color: var(--dark-bg-tertiary) !important;
+    color: var(--dark-text-secondary) !important;
+    border: 1px solid var(--dark-border) !important;
+}
+
+/* Progress bars */
+.rz-progressbar-circular.rz-progressbar-primary svg circle {
+    stroke: var(--dark-accent) !important;
+}
+
+/* Notification overrides */
+.rz-notification {
+    background-color: var(--dark-bg-secondary) !important;
+    border: 1px solid var(--dark-border) !important;
+    color: var(--dark-text-primary) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+.rz-notification.rz-notification-success {
+    border-left-color: #06b6d4 !important;
+}
+
+.rz-notification.rz-notification-error {
+    border-left-color: #ef4444 !important;
+}
+
+.rz-notification.rz-notification-info {
+    border-left-color: var(--dark-accent) !important;
+}
+
+.rz-notification.rz-notification-warning {
+    border-left-color: #f59e0b !important;
+}
+
+/* Stack and layout components */
+.rz-stack {
+    background-color: transparent !important;
+}
+
+/* Text color overrides */
+.rz-text {
+    color: inherit !important;
+}
+
+/* Focus states */
+.rz-textbox:focus, .rz-dropdown:focus, .rz-textarea:focus {
+    border-color: var(--dark-accent) !important;
+    box-shadow: 0 0 0 2px rgba(88, 166, 255, 0.2) !important;
+}
+
+/* Navigation Layout for Bottom Copyright */
+.nav-scrollable {
+    display: flex !important;
+    flex-direction: column !important;
+    height: calc(100vh - 3.5rem) !important; /* Subtract navbar height */
+}
+
+.nav-scrollable nav {
+    flex-grow: 1;
+}
+
+/* Bottom Copyright Styling */
+.navbar-bottom-copyright {
+    margin-top: auto;
+    border-top: 1px solid var(--dark-border);
+    background-color: var(--dark-bg-tertiary);
+}
+
+.navbar-bottom-copyright .text-muted {
+    color: var(--dark-text-muted) !important;
+    font-size: 0.75rem;
+}
+
+/* Version info styling */
+.navbar-bottom-copyright small[style*="font-size: 0.65rem"] {
+    color: rgba(107, 114, 128, 0.7) !important;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+/* TTC Loading Screen */
+.ttc-loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ttc-loading-container {
+    text-align: center;
+    padding: 2rem;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Logo Section */
+.ttc-logo-section {
+    margin-bottom: 3rem;
+}
+
+.ttc-logo-image {
+    max-width: 120px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    padding: 15px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 242, 247, 0.9) 100%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 30px rgba(88, 166, 255, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    animation: logoGlow 3s ease-in-out infinite alternate;
+    object-fit: contain;
+    border: 1px solid rgba(88, 166, 255, 0.2);
+}
+
+.ttc-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #58a6ff;
+    margin: 0;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.ttc-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #c9d1d9;
+    margin: 0.5rem 0 0 0;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+/* Loading Indicator */
+.ttc-loading-indicator {
+    margin-bottom: 2rem;
+}
+
+.ttc-progress-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #21262d;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ttc-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #58a6ff, #7dd3fc, #58a6ff);
+    background-size: 200% 100%;
+    border-radius: 2px;
+    width: 0%;
+    animation: progressLoad 3s ease-in-out infinite, shimmer 2s linear infinite;
+}
+
+.ttc-loading-text {
+    font-size: 0.9rem;
+    color: #8b949e;
+    letter-spacing: 0.05em;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+
+/* Animations */
+@keyframes logoGlow {
+    from {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 30px rgba(88, 166, 255, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        border-color: rgba(88, 166, 255, 0.2);
+    }
+    to {
+        box-shadow: 0 8px 35px rgba(0, 0, 0, 0.5), 0 0 40px rgba(88, 166, 255, 0.4), inset 0 1px 0 rgba(255, 255, 255, 1);
+        border-color: rgba(88, 166, 255, 0.4);
+    }
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px rgba(88, 166, 255, 0.3), 0 0 30px rgba(88, 166, 255, 0.1);
+    }
+    to {
+        text-shadow: 0 0 30px rgba(88, 166, 255, 0.6), 0 0 40px rgba(88, 166, 255, 0.2);
+    }
+}
+
+@keyframes progressLoad {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 70%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+
+/* ApexCharts Dark Theme Overrides */
+.apexcharts-tooltip {
+    background: rgba(30, 30, 30, 0.95) !important;
+    border: 1px solid var(--dark-border) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+    color: var(--dark-text-primary) !important;
+}
+
+.apexcharts-tooltip-title {
+    background: rgba(45, 45, 45, 0.95) !important;
+    border-bottom: 1px solid var(--dark-border) !important;
+    color: var(--dark-text-primary) !important;
+    font-weight: 600 !important;
+}
+
+.apexcharts-tooltip-text,
+.apexcharts-tooltip-text-y-label,
+.apexcharts-tooltip-text-y-value,
+.apexcharts-tooltip-text-goals-label,
+.apexcharts-tooltip-text-goals-value,
+.apexcharts-tooltip-text-z-label,
+.apexcharts-tooltip-text-z-value {
+    color: var(--dark-text-primary) !important;
+}
+
+.apexcharts-tooltip-series-group {
+    background: transparent !important;
+}
+
+.apexcharts-tooltip-marker {
+    margin-right: 8px !important;
+}
+
+/* ApexCharts Legend Dark Theme */
+.apexcharts-legend-text {
+    color: var(--dark-text-secondary) !important;
+}
+
+/* ApexCharts Axis Labels Dark Theme */
+.apexcharts-xaxis-label,
+.apexcharts-yaxis-label {
+    fill: var(--dark-text-secondary) !important;
+}
+
+.apexcharts-text {
+    fill: var(--dark-text-secondary) !important;
+}
+
+/* ApexCharts Grid Lines */
+.apexcharts-grid line {
+    stroke: var(--dark-border) !important;
+}
+
+/* ApexCharts Toolbar */
+.apexcharts-toolbar {
+    filter: invert(0.9) hue-rotate(180deg) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .ttc-logo-image {
+        max-width: 80px;
+        max-height: 80px;
+        margin-bottom: 1rem;
+        padding: 10px;
+    }
+    
+    .ttc-title {
+        font-size: 2.5rem;
+    }
+    
+    .ttc-subtitle {
+        font-size: 1rem;
+    }
+    
+    .ttc-loading-container {
+        padding: 1rem;
+    }
+}

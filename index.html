@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TTCLoadController</title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/dark-theme.css" />
+    <link rel="icon" type="image/png" href="ttclogo.png" />
+    <link href="TTCLoadController.styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="ttc-loading-screen">
+            <div class="ttc-loading-container">
+                <div class="ttc-logo-section">
+                    <img src="ttclogo.png" alt="TTC Logo" class="ttc-logo-image" />
+                    <h1 class="ttc-title">TTC</h1>
+                    <h2 class="ttc-subtitle">Load Controller</h2>
+                </div>
+                
+                <div class="ttc-loading-indicator">
+                    <div class="ttc-progress-bar">
+                        <div class="ttc-progress-fill"></div>
+                    </div>
+                    <div class="ttc-loading-text">Initializing</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.min.js"></script>
+    <script src="js/serial.js"></script>
+</body>
+
+</html>

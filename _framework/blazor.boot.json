@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TTCLoadController",
   "resources": {
-    "hash": "sha256-+6TYi4lBc1jxnfaCl1K/GbnQqtIlcBW/pYMVrx3vaeE=",
+    "hash": "sha256-+MRitHLDVF5MVEU7NzRP0nf5uicdzrx7bnLfNwmgniE=",
     "fingerprinting": {
       "Blazor-ApexCharts.kem0c92the.wasm": "Blazor-ApexCharts.wasm",
       "Google.Protobuf.pb4ll106ru.wasm": "Google.Protobuf.wasm",
@@ -87,7 +87,7 @@
       "System.8rv0tdtrxz.wasm": "System.wasm",
       "netstandard.iw9l7tl3av.wasm": "netstandard.wasm",
       "System.Private.CoreLib.u683ijylfz.wasm": "System.Private.CoreLib.wasm",
-      "TTCLoadController.f04wqozh0m.wasm": "TTCLoadController.wasm",
+      "TTCLoadController.b9eclk3gmb.wasm": "TTCLoadController.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.l4ptthxatg.js": "dotnet.native.js",
       "dotnet.native.d2w7colv7e.wasm": "dotnet.native.wasm",
@@ -197,7 +197,7 @@
       "System.Xml.XDocument.ocxzop4g63.wasm": "sha256-mO8Myb/YHsEXA9rrh5dZinveqXGkEbaG2JNi9ZpvjnY=",
       "System.8rv0tdtrxz.wasm": "sha256-xMF0eauQ5DkSzUozHLFFMQnL6DSJO09nJLtgag+Dzbw=",
       "netstandard.iw9l7tl3av.wasm": "sha256-ns9rAL/4gtXNywXYfgKJs1N5nkjBt3gurt2OZ4r1COo=",
-      "TTCLoadController.f04wqozh0m.wasm": "sha256-sfkV0R7FmhmjkEsfkE3q4rudAjKbZftH1Ej3p7skSeM="
+      "TTCLoadController.b9eclk3gmb.wasm": "sha256-Lwibc9GuQVRmg1t/G9+d0N57J1Td4F4pv3pEu1BdVfA="
     }
   },
   "cacheBootResources": true,

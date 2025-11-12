@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TTCLoadController",
   "resources": {
-    "hash": "sha256-ffVrktgNarrTj0/2nP4Di1AQ2B0DSB7nZGRSveqbgbU=",
+    "hash": "sha256-k23FYmBcbXNkfmOYqHdcdTnkwXzT1M4/b1ixfA5eUIA=",
     "fingerprinting": {
       "Blazor-ApexCharts.uxw8u9rzjw.wasm": "Blazor-ApexCharts.wasm",
       "Google.Protobuf.n4mpkoy7eg.wasm": "Google.Protobuf.wasm",
@@ -69,10 +69,10 @@
       "System.Xml.Linq.62mgoxb9g2.wasm": "System.Xml.Linq.wasm",
       "System.Xml.XDocument.vv4pg4jvzd.wasm": "System.Xml.XDocument.wasm",
       "System.t4d4s3f398.wasm": "System.wasm",
-      "System.Private.CoreLib.b0s40f9cbw.wasm": "System.Private.CoreLib.wasm",
-      "TTCLoadController.efodhpeipe.wasm": "TTCLoadController.wasm",
+      "System.Private.CoreLib.g04yhnfgmi.wasm": "System.Private.CoreLib.wasm",
+      "TTCLoadController.te9h0omyz7.wasm": "TTCLoadController.wasm",
       "dotnet.native.thma9bxh6b.js": "dotnet.native.js",
-      "dotnet.native.sohaie2nwl.wasm": "dotnet.native.wasm",
+      "dotnet.native.tufpns20l2.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.9o45ky8ejm.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -86,7 +86,7 @@
       "dotnet.runtime.9o45ky8ejm.js": "sha256-6QIZYgG+ftoT9N1H1EEJeXIhD/qbKqEcnmawDskiwdI="
     },
     "wasmNative": {
-      "dotnet.native.sohaie2nwl.wasm": "sha256-DKJzinb4/8sNHIRj3oz4wCTe4Y/wIwB9FWBA/5TSAs0="
+      "dotnet.native.tufpns20l2.wasm": "sha256-haNUM2gvDGETcyi7RbxG9SdDNmPDFNJJJ9YpTPzYWVs="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -160,8 +160,8 @@
       "System.Xml.Linq.62mgoxb9g2.wasm": "sha256-UgDQgumqZj6p9gp1AxxwuF7FY0ittV25c4qrMW9q7XY=",
       "System.Xml.XDocument.vv4pg4jvzd.wasm": "sha256-+3SlDJYDdc4lXEjSJad37pAH0sKgpRPXp4ECI08vsYI=",
       "System.t4d4s3f398.wasm": "sha256-fVP2BxRRKpBA0PmBbKxmO45bXDrAXVn1GthlDclLbeU=",
-      "System.Private.CoreLib.b0s40f9cbw.wasm": "sha256-NW1vlLb8m+bNCgrzPsWVbOksjPNFyD8h6RR6TUOThyM=",
-      "TTCLoadController.efodhpeipe.wasm": "sha256-6tGLzE+iqMdyxcPH/Ht0oZXW96h0p8CEoCaGnvp0G6k="
+      "System.Private.CoreLib.g04yhnfgmi.wasm": "sha256-MFpbJBgBkPrnNdmqB0h90h86/72eJ/higt/bAWoG2z4=",
+      "TTCLoadController.te9h0omyz7.wasm": "sha256-G3alcWgsqaz4BLmu04cw8t085bBOsQEZwO7AeThkTYg="
     },
     "assembly": {}
   },

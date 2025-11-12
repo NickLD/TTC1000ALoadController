@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TTCLoadController",
   "resources": {
-    "hash": "sha256-k23FYmBcbXNkfmOYqHdcdTnkwXzT1M4/b1ixfA5eUIA=",
+    "hash": "sha256-xqEqLjoCJ36OYJBDlQYO+6HSw/em9eqVl52aJFcniLQ=",
     "fingerprinting": {
       "Blazor-ApexCharts.uxw8u9rzjw.wasm": "Blazor-ApexCharts.wasm",
       "Google.Protobuf.n4mpkoy7eg.wasm": "Google.Protobuf.wasm",
@@ -70,9 +70,9 @@
       "System.Xml.XDocument.vv4pg4jvzd.wasm": "System.Xml.XDocument.wasm",
       "System.t4d4s3f398.wasm": "System.wasm",
       "System.Private.CoreLib.g04yhnfgmi.wasm": "System.Private.CoreLib.wasm",
-      "TTCLoadController.te9h0omyz7.wasm": "TTCLoadController.wasm",
+      "TTCLoadController.56h5tv2k1o.wasm": "TTCLoadController.wasm",
       "dotnet.native.thma9bxh6b.js": "dotnet.native.js",
-      "dotnet.native.tufpns20l2.wasm": "dotnet.native.wasm",
+      "dotnet.native.d0bzmjunqu.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.9o45ky8ejm.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -86,7 +86,7 @@
       "dotnet.runtime.9o45ky8ejm.js": "sha256-6QIZYgG+ftoT9N1H1EEJeXIhD/qbKqEcnmawDskiwdI="
     },
     "wasmNative": {
-      "dotnet.native.tufpns20l2.wasm": "sha256-haNUM2gvDGETcyi7RbxG9SdDNmPDFNJJJ9YpTPzYWVs="
+      "dotnet.native.d0bzmjunqu.wasm": "sha256-gzvL8M69afzBIGvq3dl6MfKzA4LOhPqjmVc/BybuVAE="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -161,7 +161,7 @@
       "System.Xml.XDocument.vv4pg4jvzd.wasm": "sha256-+3SlDJYDdc4lXEjSJad37pAH0sKgpRPXp4ECI08vsYI=",
       "System.t4d4s3f398.wasm": "sha256-fVP2BxRRKpBA0PmBbKxmO45bXDrAXVn1GthlDclLbeU=",
       "System.Private.CoreLib.g04yhnfgmi.wasm": "sha256-MFpbJBgBkPrnNdmqB0h90h86/72eJ/higt/bAWoG2z4=",
-      "TTCLoadController.te9h0omyz7.wasm": "sha256-G3alcWgsqaz4BLmu04cw8t085bBOsQEZwO7AeThkTYg="
+      "TTCLoadController.56h5tv2k1o.wasm": "sha256-0+BuwNjvJPCvvSiwzVymHHkRCs04XDw15EfBriXfQ38="
     },
     "assembly": {}
   },

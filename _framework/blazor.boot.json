@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TTCLoadController",
   "resources": {
-    "hash": "sha256-xqEqLjoCJ36OYJBDlQYO+6HSw/em9eqVl52aJFcniLQ=",
+    "hash": "sha256-LhwbgM6DpVe5pzRPQ6p8Bne0ck/t34E7xOUHihkK47s=",
     "fingerprinting": {
       "Blazor-ApexCharts.uxw8u9rzjw.wasm": "Blazor-ApexCharts.wasm",
       "Google.Protobuf.n4mpkoy7eg.wasm": "Google.Protobuf.wasm",
@@ -69,10 +69,10 @@
       "System.Xml.Linq.62mgoxb9g2.wasm": "System.Xml.Linq.wasm",
       "System.Xml.XDocument.vv4pg4jvzd.wasm": "System.Xml.XDocument.wasm",
       "System.t4d4s3f398.wasm": "System.wasm",
-      "System.Private.CoreLib.g04yhnfgmi.wasm": "System.Private.CoreLib.wasm",
-      "TTCLoadController.56h5tv2k1o.wasm": "TTCLoadController.wasm",
+      "System.Private.CoreLib.l6688y67t2.wasm": "System.Private.CoreLib.wasm",
+      "TTCLoadController.ku4q27vgzt.wasm": "TTCLoadController.wasm",
       "dotnet.native.thma9bxh6b.js": "dotnet.native.js",
-      "dotnet.native.d0bzmjunqu.wasm": "dotnet.native.wasm",
+      "dotnet.native.l06e2d8lsh.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.9o45ky8ejm.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -86,7 +86,7 @@
       "dotnet.runtime.9o45ky8ejm.js": "sha256-6QIZYgG+ftoT9N1H1EEJeXIhD/qbKqEcnmawDskiwdI="
     },
     "wasmNative": {
-      "dotnet.native.d0bzmjunqu.wasm": "sha256-gzvL8M69afzBIGvq3dl6MfKzA4LOhPqjmVc/BybuVAE="
+      "dotnet.native.l06e2d8lsh.wasm": "sha256-C5SUU+Fz91eehlYXchIeUpNtsLju1hoe1NE7Vla7zxI="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -160,8 +160,8 @@
       "System.Xml.Linq.62mgoxb9g2.wasm": "sha256-UgDQgumqZj6p9gp1AxxwuF7FY0ittV25c4qrMW9q7XY=",
       "System.Xml.XDocument.vv4pg4jvzd.wasm": "sha256-+3SlDJYDdc4lXEjSJad37pAH0sKgpRPXp4ECI08vsYI=",
       "System.t4d4s3f398.wasm": "sha256-fVP2BxRRKpBA0PmBbKxmO45bXDrAXVn1GthlDclLbeU=",
-      "System.Private.CoreLib.g04yhnfgmi.wasm": "sha256-MFpbJBgBkPrnNdmqB0h90h86/72eJ/higt/bAWoG2z4=",
-      "TTCLoadController.56h5tv2k1o.wasm": "sha256-0+BuwNjvJPCvvSiwzVymHHkRCs04XDw15EfBriXfQ38="
+      "System.Private.CoreLib.l6688y67t2.wasm": "sha256-sz5Qmx0zKf+F2g/cEyAeVTmDf/yIriTGZ+WsTn4S6jM=",
+      "TTCLoadController.ku4q27vgzt.wasm": "sha256-9LZhVsyT9iCB/SmZRkoynaIUmnhwtKhdwmt8JfBa2Hs="
     },
     "assembly": {}
   },

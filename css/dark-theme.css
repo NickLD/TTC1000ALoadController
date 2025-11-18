@@ -390,9 +390,19 @@ body, .rz-body {
     stroke: var(--dark-border) !important;
 }
 
-/* ApexCharts Toolbar */
+/* ApexCharts Toolbar - Let native dark theme handle most styling */
 .apexcharts-toolbar {
-    filter: invert(0.9) hue-rotate(180deg) !important;
+    /* Remove the problematic filter that was making controls invisible */
+    filter: none !important;
+}
+
+/* Ensure toolbar icons are visible */
+.apexcharts-toolbar svg {
+    fill: #c9d1d9 !important;
+}
+
+.apexcharts-toolbar .apexcharts-icon:hover svg {
+    fill: #58a6ff !important;
 }
 
 /* Responsive Design */
